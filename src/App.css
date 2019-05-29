@@ -16,6 +16,7 @@ input {
   z-index: 1;
   background: hsla(180, 100%, 80%, 0.5);
   width: 10%;
+  border-bottom-right-radius: 25px;
 }
 
 #notes-container {
@@ -32,6 +33,8 @@ input {
 #note-board, #new-note-container {
   background: brown;
   height: 60%;
+  border: solid 10px green;
+  border-radius: 25px;
 }
 
 #note-board {
@@ -39,8 +42,6 @@ input {
   display: grid;
   grid-template-columns: repeat(40, 2.5%);
   grid-template-rows: repeat(40, 2.5%);
-  border: solid 10px green;
-  border-radius: 25px;
 }
 
 #new-note-container {
